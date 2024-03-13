@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Channels and Playlists</title>
     <style>
-        body {
-        font-family: Arial, sans-serif;
-        margin: 2;
-        padding: 2;
-        background-image: url('lastfile.jpg'); /* Replace 'your-background-image-url.jpg' with the URL of your background image */
-        background-attachment: fixed;
-        background-size: cover; /* Adjust the background size */
-        background-position: center; /* Adjust the background position */
-        position: absolute;
-        min-height: 100vh; /* Ensure the body is at least as tall as the viewport */
-    }
+  body {
+            font-family: Arial, sans-serif;
+            margin: 2;
+            padding: 2;
+            background-color: white;
+            position: relative;
+            min-height: 100vh; /* Ensure the body is at least as tall as the viewport */
+        }
         #channelsContainer {
             display: flex;
             justify-content: center;
@@ -35,7 +32,7 @@
     padding: 12px;
     width: 160px; /* Fixed width for each button */
     height: 80px; /* Fixed height for each button */
-    background-color: #ffffff;
+    background-color: #DBE9F4;
     color: #333;
     border: none;
     border-radius: 10px;
@@ -116,7 +113,7 @@
 
         #loadMoreButton button {
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #59ce8f;
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -176,8 +173,8 @@
             <img src="invisible.png" alt="invisible Mechanics Logo">
             Invisible Mechanics
         </button>
-
-         
+      
+      
         <button onclick="fetchVideos('UChbgwNStwEW8CdeuRl-JaXQ')">
             <img src="lakshyajee1.png" alt="Lakshya JEE Logo">
             Lakshya JEE
@@ -211,11 +208,10 @@
         <button onclick="fetchPlaylistVideos('PLYVDsiuOZP5o7T58PG8SUiKECCzbY37J9&si=SGFY0qaoV_gK9adG')">
           Advanced Booster  
         </button>
-
-
-        <button onclick="fetchPlaylistVideos('PLssp6aXoN1r8PDdlDg1wy1t51Uu2hh_vk&si=zaNyY3f1yyFwk5_s')">
+      
+      <button onclick="fetchPlaylistVideos('PLssp6aXoN1r8PDdlDg1wy1t51Uu2hh_vk&si=zaNyY3f1yyFwk5_s')">
           All Rounder
-         </button>
+        </button>
       
       
       
