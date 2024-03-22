@@ -46,6 +46,7 @@
     font-weight: bold;
     flex-grow: 1;
     box-sizing: border-box; /* Include padding and border in the width calculation */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
 }
 
 #channelsContainer button img {
@@ -64,6 +65,10 @@
         #channelsContainer button:hover {
             background-color: #B2BABB;
         }
+  
+  #channelsContainer button:active {
+    background-color: red; /* Change to your desired pressed color */
+}
         
         #videosContainer {
             display: flex;
@@ -80,14 +85,14 @@
             padding: 0px;
             
             box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-            border-radius: 0px;
+            border-radius: 10px;
             overflow: hidden;
         }
         
         .video iframe {
             width: 100%;
-            height: 215px;
-          border-radius: 7px;
+            height: 225px;
+          border-radius: 10px;
           
         }
 
@@ -139,7 +144,7 @@
         /* Adjustments for horizontal mode (tablet) */
         @media only screen and (orientation: landscape) {
             .video {
-                width: calc(33.33% - 10px); /* Three videos per row with some spacing */
+                width: calc(33.33% - 15px); /* Three videos per row with some spacing */
             }
         }
   
