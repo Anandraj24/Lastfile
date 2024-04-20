@@ -174,7 +174,7 @@
     <div id="channelsContainer">
         <!-- Placeholder for channel buttons -->
         <button onclick="fetchVideos('UCNn75PJi2J5OmZGuLCZGJPg')">
-            <img src="mathongo1.png" alt="Mathongo Logo">
+            <img src="Mathongo1.png" alt="Mathongo Logo">
             Mathongo
         </button>
         <button onclick="fetchVideos('UCgBmfNILAlXmGv3CsJ8oFJA')">
@@ -186,10 +186,7 @@
             Nexus JEE
         </button>
       
-      <button onclick="fetchVideos('UCelwThzcrGA7cUulhnOBUhA')">
-            <img src="simply.png" alt="Simply concise Logo">
-            Simply Concise
-        </button>
+      
         
 
         <button onclick="fetchVideos('UCWsvAo4chGgZn-8PVi1c0bA')">
@@ -203,7 +200,7 @@
             Dexter Chemistry
         </button>
         <button onclick="fetchVideos('UCHWna16c7Ff0mY_QBVF2rXQ')">
-            <img src="mathsunplugged1.png" alt="Maths Unplugged Logo">
+            <img src="Maths.png" alt="Maths Unplugged Logo">
             Maths Unplugged
         </button>
         <button onclick="fetchVideos('UC7px6OmooQLmsJlYACR_n-A')">
@@ -223,18 +220,15 @@
             Advanced PYQ Physics
         </button>
         <button onclick="fetchPlaylistVideos('PLYFlGICvnvLjaSEn24Sceq-xNEYmAk8BV&si=9rDs-vnc_Zhr2XuT')">
-            Atoms Physics
+            Atoms Physics RY
         </button>
         
-        </button>
-        <button onclick="fetchPlaylistVideos('PLPU8lTQ2k4cAR97A__0H04UPivm-wwIq-&si=08bzIWZpan35igAJ')">
-            Chemistry PYQ
-        </button>
+        
 <button onclick="fetchPlaylistVideos('PLYipXr10_o91l_VgIY8sxIgzU8gxT9vif&si=AS-10HNuZyO889mn')">
         Advanced Physics PYQ
         </button>
 <button onclick="fetchPlaylistVideos('PLnG6YW15b0oSG49cB_H6Sxqcv6YHZ8y_-&si=xiURjVtgT8umj70Y')">
-            IIIT Express Maths
+            IIT Express Maths
         </button>
 
 
@@ -250,8 +244,8 @@
           Advanced Booster  
         </button>
       
-      <button onclick="fetchPlaylistVideos('PLssp6aXoN1r8PDdlDg1wy1t51Uu2hh_vk&si=zaNyY3f1yyFwk5_s')">
-          All Rounder
+      <button onclick="fetchPlaylistVideos('PLrHjxIp47OtUN_BGhKGGTSMKdjIvYB0JA&si=HmyIAV4Sh6eCpRQi')">
+          Master IOC
         </button>
       
       
@@ -285,11 +279,11 @@
         let greeting;
 
         if (hour < 12) {
-            greeting = "Good morning Anand Raj!";
+            greeting = "Good morning Student!";
         } else if (hour < 18) {
-            greeting = "Good afternoon Anand Raj!";
+            greeting = "Good afternoon Student!";
         } else {
-            greeting = "Good evening Anand Raj!";
+            greeting = "Good evening Student!";
         }
 
         document.getElementById("greeting").innerText = greeting;
@@ -297,7 +291,7 @@
   
   
                 // YouTube Data API key
-        const apiKey = 'AIzaSyD2_5JK0acvRSkblX46u0Bq1wkCg08UINQ';
+        const apiKey = 'AIzaSyANVKLt-ltn5j43kPD7AyeXSOf2F58cQNc';
         //Number of videos to fetch per request
         const maxResults = 12;
         // Variable to keep track of the next page token
@@ -430,4 +424,5 @@ function fetchPlaylistVideos(playlistId, pageToken = '') {
  <script src="https://www.youtube.com/iframe_api"></script>
 
 </body>
-</html>
+    </html>
+    
